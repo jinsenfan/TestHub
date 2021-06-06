@@ -58,5 +58,6 @@ public class SearchTagsTest {
         Assert.assertNotNull(body, "response.body()");
         JsonSchemaUtils.assertResponseJsonSchema(SCHEMA_PATH, JSONObject.toJSONString(body));
         Assert.assertNotNull(body.getTags(), "tags");
+        //我修改了
     }
 }
