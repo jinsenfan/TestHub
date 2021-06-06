@@ -60,5 +60,7 @@ public class SearchTagsTest {
         Assert.assertNotNull(body.getTags(), "tags");
         //我修改了
         //我再次修改了
+        //我合并了
+
     }
 }
