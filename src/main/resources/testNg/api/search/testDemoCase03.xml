@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="测试套件" verbose="1" >
+    <test name="简单测试">
+        <groups>
+            <run>
+                <exclude name="高"  />   <!-- 排除不执行的测试用例 -->
+                <include name="功能测试"  />  <!-- 指定执行的测试用例 -->
+            </run>
+        </groups>
+
+        <classes>
+            <class name="sample.TagTest"/>
+        </classes>
+    </test>
+</suite>

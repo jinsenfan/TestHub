@@ -3,6 +3,7 @@ package com.jxq.douban;
 import com.alibaba.fastjson.JSONObject;
 import com.jxq.douban.domain.MovieResponseVO;
 import com.jxq.tools.JsonSchemaUtils;
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
@@ -61,6 +62,5 @@ public class SearchTagsTest {
         //我修改了
         //我再次修改了
         //我合并了
-
     }
 }

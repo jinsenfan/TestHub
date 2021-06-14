@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="测试套件">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <test name="简单测试">
+        <parameter name="add1" value="100"/>
+        <parameter name="add2" value="2"/>
+        <parameter name="result" value="102"/>
+        <classes>
+            <class name="sample.DataProviderTest" />
+        </classes>
+    </test>
+</suite>

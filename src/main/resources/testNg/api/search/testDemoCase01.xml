@@ -1,0 +1,10 @@
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 必须要添加，表示遵循的规范文件。-->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="测试套件" verbose="1" >
+    <test name="简单测试">
+        <packages>
+            <package name="com.jxq.douban" />
+
+        </packages>
+    </test>
+</suite>

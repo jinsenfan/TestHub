@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="测试套件">
+<!--  为了输出测试报告用 -->
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+
+    <test name="简单测试">
+        <parameter name="param1" value="100"/>
+        <parameter name="param2" value="2"/>
+        <parameter name="result" value="1002"/>
+        <classes>
+            <class name="com.testing.testNg.ParamCase" />
+        </classes>
+    </test>
+</suite>
