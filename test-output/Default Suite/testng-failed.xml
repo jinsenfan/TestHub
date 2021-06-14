@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="TestHub(failed)">
+    <classes>
+      <class name="com.testing.testNg.ParamCase">
+        <methods>
+          <include name="testAdd1"/>
+        </methods>
+      </class> <!-- com.testing.testNg.ParamCase -->
+    </classes>
+  </test> <!-- TestHub(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
